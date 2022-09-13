@@ -1,3 +1,6 @@
+#A little description of the problem is here 
+#https://www.geogebra.org/m/ExvvrBbR
+
 #function that translates number in decimal numerical system to binary
 def decimal_to_binary(n):
     binary = ''
