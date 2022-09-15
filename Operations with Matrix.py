@@ -37,7 +37,7 @@ def matrix_max_indices(matrix):
 def matrix_swap_cols(matrix, x, y):
     for l in range(n):
         matrix[l][x], matrix[l][y] = matrix[l][y], matrix[l][x]
-        print(*matrix[l])
+    return matrix
         
 #Checks if a square matrix is symmetrical about the main diagonal
 def matrix_is_symm(matrix):
